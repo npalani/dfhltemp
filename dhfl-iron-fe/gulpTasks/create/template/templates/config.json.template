@@ -1,0 +1,13 @@
+{
+	"clientLibPath": "{{clientlibs_root_path}}{{clientlibs_path}}/{{template_name}}",
+	"autoGenerate" : {
+		"js" 	 : {{auto_generate_js}},
+		"styles" : {{auto_generate_styles}}
+	},
+	"components" : [
+		"global",
+	{{#each components_to_include}}
+		"{{this}}"{{#unless @last}},{{/unless}}
+	{{/each}}
+	]
+}

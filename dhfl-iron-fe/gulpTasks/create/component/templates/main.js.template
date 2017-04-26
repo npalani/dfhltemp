@@ -1,0 +1,24 @@
+/**
+ *  This is the main file for {{component_name}}
+ */
+
+var GGP     = require( 'ampersand-app' );
+var logger  = require( 'bows' )( '{{component_name}}' );
+var React   = require( 'react' );
+
+
+var {{component_name}} = React.createClass({
+  render: function() {
+    return (
+      <div className='commentBox'>
+        Hello, world! I am a CommentBox.
+      </div>
+    );
+  }
+});
+
+
+module.exports = {
+    reactComponent  : true,
+    component       : {{component_name}}
+};

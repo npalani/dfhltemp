@@ -1,0 +1,13 @@
+/**
+ *  This is the main file for {{component_name}}
+ */
+
+var {{component_name}} = function( componentData ){
+
+    //componentData is the data from the AEM compoent
+
+};
+
+module.exports = {
+    init : {{component_name}}
+};

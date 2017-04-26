@@ -1,0 +1,11 @@
+/**
+*
+* This file was generated. To edit the contents edit the
+* config.json file for the {{template_name}} template.
+*
+*/
+module.exports = {
+{{#each components}}
+    '{{ this.name }}' : require( './../../components/{{ this.name }}/{{ this.name }}.js' ),
+{{/each}}
+}

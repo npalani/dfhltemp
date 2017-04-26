@@ -1,0 +1,8 @@
+/**
+ *  This is the main file for {{template_name}}
+ */
+
+var components          = require( './{{template_name}}.components' );
+var globalComponent     = require( '../../components/global/global' );
+
+globalComponent.init( components );

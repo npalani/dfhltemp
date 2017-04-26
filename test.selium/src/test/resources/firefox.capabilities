@@ -1,0 +1,3 @@
+browserName=firefox
+nativeEvents=false
+webdriver.gecko.driver=/Users/citytech-np/Desktop/geckodriver

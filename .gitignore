@@ -112,15 +112,6 @@ hs_err_pid*
 .idea/
 .ironrc
 README.md
-core/
-dfhl.iml
-dhfl-iron-fe/
-it.launcher/
-it.tests/
-pom.xml
-test.selium/
-ui.apps/
-ui.content/
 /.idea/
 /.ironrc
 /core/dfhl.core.iml

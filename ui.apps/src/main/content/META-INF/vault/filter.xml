@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/dfhl">
+        <exclude pattern="/apps/dfhl/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/dfhl"/>
+    <filter root="/etc/clientlibs/dfhl"/>
+</workspaceFilter>

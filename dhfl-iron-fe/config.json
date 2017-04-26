@@ -1,0 +1,25 @@
+{
+    "defaultComponents" : [
+        "global"
+        
+    ],
+    "gulpWatchCQ": {
+        "author": {
+            "build": true,
+            "port": "4502"
+        },
+        "publish": {
+            "build": false,
+            "port": "4503"
+        },
+        "jcr_location": "../ui.apps/src/main/content/jcr_root"
+    },
+    "watchedFiles": [
+        ".js",
+        ".html"
+    ],
+    "dontWatch": [
+        "!components/**/node_modules/**/**.*"
+    ],
+    "debug": true
+}

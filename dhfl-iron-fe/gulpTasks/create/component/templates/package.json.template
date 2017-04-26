@@ -1,0 +1,17 @@
+{
+  "name": "{{component_name}}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "{{component_name}}.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "libraries" : [],
+  "dependencies": {
+    "ampersand-app": "^1.0.3",
+    "bows": "^1.4.2",
+    "react": "^0.13.2"
+  }
+}
